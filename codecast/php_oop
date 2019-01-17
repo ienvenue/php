@@ -1,1 +1,26 @@
+static属性和方法 可以理解为全局属性和方法 他和实例化的对象无关 需要小心使用
+const 常量 无论什么情况都不能被修改
+class BankAccount{
+  const TAX=0.1;
+}
+trait 特征
+关键字 trait
+1是为了代码重用
+2想在别人的代码中加入自己的代码
 
+
+学习Composer
+//已安装Composer
+~前一项加1^最大版本 两符号都是版本区间
+或者在命令行中直接require
+
+install与update
+先读取composer.lock（install)
+update先读取composer.json
+composer.lock是为了项目的的统一性（锁住）
+
+Composer自动加载解析
+其实就是通过自动添加命名空间，通过json文件定位搬运至src下
+
+composer search 通过search来搜索 
+create-project slim/slim slim-2.6.2 2.6.2
