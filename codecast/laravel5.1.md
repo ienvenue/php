@@ -16,3 +16,24 @@ laravel Eloquent ORM
 laravel forms
 composer require illminate/html
 快速进行表单的书写
+
+queryScope setAttribute
+Carbon对象
+
+laravel 表单验证。
+
+
+Request对象
+validate规则
+
+Route::resourse自动生成路由
+Form-Model-Binding
+form::model
+
+Auth模块
+
+Eloquent Relationship
+artile
+make:migration
+integer
+
