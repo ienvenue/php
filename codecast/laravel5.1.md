@@ -12,3 +12,7 @@ php artisan migrate
 
 laravel Eloquent ORM
 轻松的CURD
+
+laravel forms
+composer require illminate/html
+快速进行表单的书写
