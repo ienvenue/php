@@ -1,0 +1,21 @@
+2019.1.21
+使用sendcloud实现用户登录的邮件验证功能
+//https://github.com/NauxLiu/Laravel-SendCloud
+
+git status
+git init
+git add .
+git commit -m[]
+git push
+//git命令大全
+//https://www.cnblogs.com/allanli/p/git_commands.html
+
+php artisan make：Auth
+php artisna make:controller EmailController
+
+
+//php artisan 常用命令
+https://blog.csdn.net/fationyyk/article/details/51504453
+
+str_random()随机字符串
+redirect() 重定向
