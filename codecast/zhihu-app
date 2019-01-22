@@ -19,3 +19,5 @@ https://blog.csdn.net/fationyyk/article/details/51504453
 
 str_random()随机字符串
 redirect() 重定向
+
+使用laracasts/flash
