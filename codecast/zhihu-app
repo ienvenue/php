@@ -21,3 +21,5 @@ str_random()随机字符串
 redirect() 重定向
 
 使用laracasts/flash
+
+php artisan make:model Question -m
