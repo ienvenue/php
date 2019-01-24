@@ -1,0 +1,49 @@
+2019.1.21
+使用sendcloud实现用户登录的邮件验证功能
+//https://github.com/NauxLiu/Laravel-SendCloud
+
+git status
+git init
+git add .
+git commit -m[]
+git push
+//git命令大全
+//https://www.cnblogs.com/allanli/p/git_commands.html
+
+php artisan make：Auth
+php artisna make:controller EmailController
+
+
+//php artisan 常用命令
+https://blog.csdn.net/fationyyk/article/details/51504453
+
+str_random()随机字符串
+redirect() 重定向
+
+使用laracasts/flash
+
+php artisan make:model Question -m
+
+-------------------2019年1月24日------------------------------------
+遇到了各种各样的问题，虽然还有小部分没有解决
+tinker 调试 Factory locate不到方法
+解决之后又出现问题了PHP error
+
+
+不过也学到了很多
+DI也称IoC控制反转 DI依赖注入
+通过将类作为参数类型
+可以减小耦合度 也就是吧参数类型也写成类 让这个类来对这个传入的参数进行操作
+
+select2 话题选择插件的使用
+
+laravel框架的css 与 js
+通过mix.version保持更新
+
+webpack + npm编译合并
+npm nodejs的生态工具 类似composer
+npm install
+npm run dev
+nmp run watch
+
+------------------------2019年1月24日 22点54分-------------------------
