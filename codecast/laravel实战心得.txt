@@ -96,3 +96,11 @@ get：
 1.重构了邮件功能的代码 通过Mailer作为基类来派生出UserMailer等类
 2.还有些许逻辑上的错误，没有修复好
 3.初步认定是逻辑上的问题
+
+
+--------------------------23点42分 2019年2月5日--------
+今晚两盅葡萄酒 
+二月十四号的招聘会是确实可以去的
+今天看了文档记录一下：
+Laravel 自带几个预构建的认证控制器，它们被放置在 App\Http\Controllers\Auth 命名空间内。 RegisterController 处理新用户注册， LoginController 处理用户认证， ForgotPasswordController 处理用于重置密码的邮件链接，而 ResetPasswordController 包含重置密码的逻辑。这些控制器都使用 trait 来引入所必要的方法。对于大多数应用而言，你根本不需要修改这些控制器。
+
