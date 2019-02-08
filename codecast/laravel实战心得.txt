@@ -104,3 +104,16 @@ get：
 今天看了文档记录一下：
 Laravel 自带几个预构建的认证控制器，它们被放置在 App\Http\Controllers\Auth 命名空间内。 RegisterController 处理新用户注册， LoginController 处理用户认证， ForgotPasswordController 处理用于重置密码的邮件链接，而 ResetPasswordController 包含重置密码的逻辑。这些控制器都使用 trait 来引入所必要的方法。对于大多数应用而言，你根本不需要修改这些控制器。
 
+------------------------20点58分 2019年2月8日---------------
+
+q:自定义channel实现失败
+q:Sendclass无效
+可能需要通知优先队列来实现，是laravel框架版本的问题
+
+get：
+1，Model Dialog 通过 v-model实现数据的双向绑定
+这是个简洁好用的Dialog框
+2，使用了多态关联，是laravel框架的Elqouent下的一种关联模式 使用在评论类型和评论者id  评论类型会关联到两个表一个是question 问题表 另一个是会关联到Answer表 还有评论人id 是关联到User表当中
+3，使用了repository重构了 大部分可以使用依赖注入的地方  repository可以让人更舒服 强迫症表示很爽
+4.准备使用helper function 将所有的guard替换成自定义的函数 大大优化了route 管理起来也更舒服 
+
