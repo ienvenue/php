@@ -117,3 +117,16 @@ get：
 3，使用了repository重构了 大部分可以使用依赖注入的地方  repository可以让人更舒服 强迫症表示很爽
 4.准备使用helper function 将所有的guard替换成自定义的函数 大大优化了route 管理起来也更舒服 
 
+
+-----------------------23点15分 2019年2月12日-------------
+今天居然有15k步数
+烟花真是绚烂而短暂
+q:在上传图片的时候验证csrf失败，csrftoken引用不正常
+q:  界面没有修改
+get：看源码学习了csrf x-csrf xsrf 可以使用csrf 也可以通过修改中间件middleware中的Verifycsrf来过滤网址
+get：make request 让职责更加分明 通过make出来的request 进行依赖注入
+get:使用 laravel 的 eloquent mutator （casts） 存储一下不是那么重要的数据让数据库不需要那么多的字段
+
+
+
+
